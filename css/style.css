@@ -1,9 +1,11 @@
+
 header{
   background-color: #4ea0ff;
   background-image: url('/img/pattern.png');
   background-size: 25%;
 }
 
+/* LOGO */
 header .boxlogo {
 width: 150px;
 height: auto;
@@ -14,7 +16,9 @@ header #logo{
 width: 90%;
 padding-top: 20%;
 }
+/* /LOGO */
 
+/* TITOLO ARTICOLO */
 main .titolo-articolo h1{
 margin-bottom: 0;
 }
@@ -36,6 +40,9 @@ main #data, #boxautore {
 main #autore{
   color: #00abe5;
 }
+/* /TITOLO ARTICOLO */
+
+/* GALLERIA */
 
 main .didascalie{
   color: grey;
@@ -45,3 +52,20 @@ main .didascalie p{
   margin-top: 0;
   margin-bottom: 0;
 }
+
+/* /GALLERIA */
+
+/* ARTICOLO */
+
+main .articolo{
+  margin-bottom: 50px;
+}
+main .testo-evidenziato{
+  background-color: #FFFF00;
+}
+
+main .lista-non-ordinata{
+  margin-left: 0;
+}
+
+/* /ARTICOLO */
