@@ -1,0 +1,38 @@
+header{
+  background-color: #4ea0ff;
+  background-image: url('/img/pattern.png');
+  background-size: 25%;
+}
+
+header .boxlogo {
+width: 150px;
+height: auto;
+padding-left: 0.5%;
+}
+
+header #logo{
+width: 90%;
+padding-top: 20%;
+}
+
+main .titolo-articolo h1{
+margin-bottom: 0;
+}
+
+main #data {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+main #boxautore{
+  margin-bottom: 0;
+}
+
+main #data, #boxautore {
+  margin-top: 0;
+  color: #9b9b9b;
+}
+
+main #autore{
+  color: #00abe5;
+}
