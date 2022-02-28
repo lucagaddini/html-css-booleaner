@@ -72,6 +72,16 @@ main .testo-evidenziato{
 
 main .lista-non-ordinata{
   padding-left: 15px ;
+
+}
+
+/* Tabella */
+
+main .tabella {
+  border: 0px;
+  border-collapse: collapse;
+  text-align: left;
+  margin-right: 1%;
 }
 
 main .tabella thead{
@@ -79,13 +89,19 @@ main .tabella thead{
   color: white;
 }
 
-main .tabella {
-text-align: left;
+main .tabella-colonna-25{
+  width: 25%;
+}
+main .tabella-colonna-50{
+  width: 50%;
 }
 
 main .riga-sfondo{
   background-color:#b2e4f2;
 }
+
+/* /Tabella */
+
 
 /* /ARTICOLO */
 
